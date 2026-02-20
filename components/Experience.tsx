@@ -186,7 +186,7 @@ export default function Experience({ isLit }: ExperienceProps) {
         {showLetter && (
            <GiftEnvelope 
              position={[0, -8, -18]} 
-             url="https://www.ubereats.com" 
+             url="https://www.ubereats.com/giftcard/redeem?eatsOrderUuid=cb68ef09-ed0d-4e83-835a-c9324ff17b23&nocache=true&async=true&productType=eats&shouldAnimate=true" 
            />
         )}
 
