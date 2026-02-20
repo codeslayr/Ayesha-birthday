@@ -29,7 +29,7 @@ export default function Home() {
     }
 
     // 2. Increase the threshold (Try 100 or 120 instead of 40)
-    if (isLit && volume > 100) {
+    if (isLit && volume > 45) {
       setIsLit(false);
       stopMic(); // Turn off the mic once the candle is out
     }
